@@ -1,0 +1,2 @@
+@php $person=$getRecord(); @endphp
+<div class="ces-studio-person">@if($person->photo)<img src="{{ asset('uploads/'.$person->photo) }}" alt="" loading="lazy">@else<span>{{ \Illuminate\Support\Str::upper(\Illuminate\Support\Str::substr($person->name,0,1)) }}</span>@endif<div><strong>{{ $person->name }}</strong><small>{{ $person->is_supervisor ? 'Dosen pembimbing' : $person->role }}</small></div></div>

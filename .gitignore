@@ -1,0 +1,22 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*serviceAccount*.json
+# Dependencies, user data, exports, logs and generated files
+node_modules/
+vendor/
+storage/
+database/
+uploads/
+*.sql
+*.sqlite*
+*.csv
+*.xlsx
+*.log
+dist/
+build/
+.firebase/

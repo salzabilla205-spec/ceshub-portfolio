@@ -19,6 +19,6 @@ Personal contact strings and production connection identifiers in the selected s
 
 ## Main source folders
 
-`app/`, `config/`, `resources/`, `routes/`, `public/css/`, `public/js/`.
+`app/`, `config/`, `resources/` and `routes/`.
 
 Additional public-edition exclusions: production security rules, cloud notification functions, generated third-party browser assets and dependency lockfiles. Demo names and links replace remaining operational references.
